@@ -9,6 +9,7 @@
   };
 
   var TMap = function(element) {
+    this.map;
     this.markers = [];
     this.initMap(element);
     this.initMarker(element);
