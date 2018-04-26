@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title></title>
   <style>
-  #map {
+  #map1, #map2 {
     width: 200px;
     height: 200px;
   }
@@ -13,7 +13,13 @@
 </head>
 <body>
 
-  <div id='map' data-toggle="map" data-lat='-34.397' data-lng='150.644' data-zoom='8'>
+  <div id='map1' data-toggle="map" data-lat='-34.397' data-lng='150.644' data-zoom='8'>
+    <div data-toggle='marker' data-lat='-34.397' data-lng='150.644'></div>
+    <div data-toggle='marker' data-lat='-34.397' data-lng='150.644'></div>
+    <div data-toggle='marker' data-lat='-34.397' data-lng='150.644'></div>
+  </div>
+
+  <div id='map2' data-toggle="map" data-lat='34.397' data-lng='130.644' data-zoom='3'>
     <!-- ここにマーカーとかおきたい -->
   </div>
 
